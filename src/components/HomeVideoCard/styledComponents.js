@@ -25,7 +25,7 @@ export const ProfileImage = styled.img`
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  margin: 20px;
+  margin: 22px 10px 0px 15px;
 `
 export const ContentSection = styled.div`
   display: flex;
@@ -35,18 +35,21 @@ export const ContentSection = styled.div`
 `
 export const Title = styled.p`
   font-family: 'Roboto';
+  margin-bottom: 0px;
   font-size: 15px;
   color: ${props => props.color};
 `
 export const ChannelName = styled.p`
   font-family: 'Roboto';
   font-size: 13px;
-  color: ${props => props.color};
+  margin-bottom: 0px;
+  color: #606060;
 `
 export const ViewsAndDate = styled.p`
   font-family: 'Roboto';
   font-size: 12px;
-  color: ${props => props.color};
+  margin-top: 0px;
+  color: #606060;
 `
 export const Dot = styled.span`
   width: 20px;

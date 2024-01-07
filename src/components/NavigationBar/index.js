@@ -106,18 +106,24 @@ class NavigationBar extends Component {
               <ContactInfo>
                 <ContactHeading color={textColor}>CONTACT US</ContactHeading>
                 <ContactIcons>
-                  <ContactImage
-                    src="https://assets.ccbp.in/frontend/react-js/nxt-watch-facebook-logo-img.png"
-                    alt="facebook logo"
-                  />
-                  <ContactImage
-                    src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
-                    alt="twitter logo"
-                  />
-                  <ContactImage
-                    src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
-                    alt="linked in logo"
-                  />
+                  <a href="https://www.instagram.com/shahid_cruze/">
+                    <ContactImage
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"
+                      alt="instagram logo"
+                    />
+                  </a>
+                  <a href="https://twitter.com/shahid_cruze">
+                    <ContactImage
+                      src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
+                      alt="twitter logo"
+                    />
+                  </a>
+                  <a href="https://www.linkedin.com/in/shahidm153/">
+                    <ContactImage
+                      src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
+                      alt="linked in logo"
+                    />
+                  </a>
                 </ContactIcons>
                 <ContactNote color={textColor}>
                   Enjoy! Now to see your channels and recommendations!

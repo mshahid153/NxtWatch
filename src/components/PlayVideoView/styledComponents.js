@@ -16,7 +16,7 @@ export const PlayVideoStatusContainer = styled.div`
 `
 export const PlayVideoStatus = styled.p`
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 15px;
   color: ${props => props.color};
 `
 export const PlayVideoDot = styled.span`

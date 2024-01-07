@@ -49,7 +49,7 @@ class Login extends Component {
           id="username"
           value={username}
           onChange={this.onChangeUsername}
-          placeholder="Username"
+          placeholder="shahid"
         />
       </>
     )
@@ -66,7 +66,7 @@ class Login extends Component {
           id="password"
           value={password}
           onChange={this.onChangePassword}
-          placeholder="Password"
+          placeholder="shahid@2023"
         />
         <CheckboxContainer>
           <CheckboxInput
@@ -94,7 +94,13 @@ class Login extends Component {
 
   OnSubmitForm = async event => {
     event.preventDefault()
-    const {username, password} = this.state
+    let {username, password} = this.state
+    if (username === 'shahid') {
+      username = 'rahul'
+    }
+    if (password === 'shahid@2023') {
+      password = 'rahul@2021'
+    }
     const userDetails = {username, password}
     const LoginUrl = 'https://apis.ccbp.in/login'
     const options = {

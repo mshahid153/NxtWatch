@@ -64,6 +64,7 @@ export const ContactImage = styled.img`
   width: 25px;
   border-radius: 50px;
   margin-right: 10px;
+  object-fit: contain;
 `
 export const ContactNote = styled.p`
   font-family: 'Roboto';

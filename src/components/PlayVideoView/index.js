@@ -37,8 +37,8 @@ const PlayVideoView = props => {
       {value => {
         const {isDarkTheme, addVideo, savedVideos} = value
         const textColor = isDarkTheme ? '#64748b' : '#231f20'
-        const likeIconColor = isLiked ? '#64748b' : '#2563eb'
-        const dislikeIconColor = isDisLiked ? '#64748b' : '#2563eb'
+        const likeIconColor = isLiked ? '#2563eb' : '#231f20'
+        const dislikeIconColor = isDisLiked ? '#2563eb' : '#231f20'
         let isSaved
         const index = savedVideos.findIndex(
           eachVideo => eachVideo.id === videoDetails.id,

@@ -19,6 +19,7 @@ export const NavbarBg = styled.nav`
 export const HeaderLogo = styled.img`
   width: 80px;
   height: 30px;
+  object-fit: contain;
   @media screen and (min-width: 768px) {
     width: 100px;
     height: 40px;
