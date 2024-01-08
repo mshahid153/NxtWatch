@@ -49,16 +49,19 @@ export const TrendingContentSection = styled.div`
 export const TrendingTitle = styled.p`
   font-family: Roboto;
   font-size: 15px;
+  margin-bottom: 0px;
   color: ${props => props.color};
 `
 export const TrendingChannelName = styled.p`
   font-family: Roboto;
   font-size: 13px;
+  margin-bottom: 5px;
   color: ${props => props.color};
 `
 export const TrendingViewsAndDate = styled.p`
   font-family: Roboto;
   font-size: 12px;
+  margin: 0px;
   color: ${props => props.color};
 `
 export const TrendingDot = styled.span`

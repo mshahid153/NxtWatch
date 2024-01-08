@@ -22,8 +22,8 @@ const HomeVideos = props => {
     <ThemeAndVideoContext.Consumer>
       {value => {
         const {isDarkTheme} = value
-        const headingColor = isDarkTheme ? '#f1f5f9' : '#1e293b'
-        const noteColor = isDarkTheme ? '#e2e8f0' : '#475569'
+        const headingColor = isDarkTheme ? '#f1f5f9' : '#231f20'
+        const noteColor = isDarkTheme ? '#e2e8f0' : '#231f20'
 
         return videosCount > 0 ? (
           <VideoCardList>

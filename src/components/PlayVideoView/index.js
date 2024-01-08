@@ -57,7 +57,12 @@ const PlayVideoView = props => {
 
         return (
           <VideoPlayer>
-            <ReactPlayer url={videoDetails.videoUrl} controls width="100%" />
+            <ReactPlayer
+              url={videoDetails.videoUrl}
+              controls
+              width="100%"
+              padding="0px"
+            />
             <PlayVideoTitle color={textColor}>
               {videoDetails.title}
             </PlayVideoTitle>

@@ -43,13 +43,13 @@ export const ChannelName = styled.p`
   font-family: 'Roboto';
   font-size: 13px;
   margin-bottom: 0px;
-  color: #606060;
+  color: ${props => props.color};
 `
 export const ViewsAndDate = styled.p`
   font-family: 'Roboto';
   font-size: 12px;
   margin-top: 0px;
-  color: #606060;
+  color: ${props => props.color};
 `
 export const Dot = styled.span`
   width: 20px;

@@ -11,7 +11,7 @@ export const GamingListItem = styled.li`
   display: flex;
   flex-direction: column;
   @media screen and (min-width: 768px) {
-    width: 280px;
+    width: 270px;
     margin-right: 20px;
   }
 `

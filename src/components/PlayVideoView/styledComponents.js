@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
 export const VideoPlayer = styled.div`
-  padding: 20px;
+  padding: 0px;
 `
+
 export const PlayVideoTitle = styled.p`
   font-family: Roboto;
   font-size: 25px;
+  padding-left: 10px;
   color: ${props => props.color};
 `
 export const PlayVideoStatusContainer = styled.div`
@@ -13,6 +15,7 @@ export const PlayVideoStatusContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 15px 0px 15px;
 `
 export const PlayVideoStatus = styled.p`
   font-family: Roboto;
@@ -53,6 +56,7 @@ export const ChannelContainer = styled.div`
   display: flex;
   align-items: flex-start;
   margin-top: 20px;
+  padding: 15px;
 `
 export const ChannelImage = styled.img`
   width: 30px;
